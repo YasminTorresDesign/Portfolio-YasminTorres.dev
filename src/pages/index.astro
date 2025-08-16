@@ -28,26 +28,34 @@ const projects = (await getCollection('work'))
 			<header class="hero">
 				<Hero
 					title="Hola, soy Yasmín"
-					tagline="Diseñadora de Producto || Desarrolladora Backend, residente en Colombia. Me especializo en crear sistemas inteligentes y personalizados que conectan diseño, software e IA. Ayudo a emprendedores, negocios locales y creadores a construir soluciones tecnológicas funcionales, intuitivas y escalables."
-					align="start"
-				>
+					tagline="Diseñadora Producto | Desarrolladora Backend, residente en Colombia. Me especializo en crear sistemas inteligentes y personalizados que conectan diseño, software e IA. Ayudo a emprendedores, negocios locales y creadores a construir soluciones tecnológicas funcionales, intuitivas y escalables."
+					align="start">
 					<div class="roles">
 						<Pill><Icon icon="pencil-line" size="1.33em" /> Diseñadora</Pill>
 						<Pill><Icon icon="code" size="1.33em" /> Desarrolladora</Pill>
 						<Pill><Icon icon="rocket-launch" size="1.33em" /> Creativa</Pill>
-						
 					</div>
 				</Hero>
 				
 				<img
-					alt="Yasmin White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Yasmin trabajando en un proyecto"
 					width="480"
 					height="620"
-					src="/assets/portrait.jpg"
+					src="/assets/inicio.jpg"
 				/>
 			</header>
+			<section>
+				<header class="section-header stack gap-2 lg:gap-4">
+				<h3>Servicios </h3>
+					<p>Soluciones Personalizadas y Escalables<br>
+					 diseñadas para crecer contigo y tus ideas
+					</p>
+				</header>
+				<Skills />
+			</section>
+			
 
-			<Skills />
+			<!-- <Skills /> -->
 		</div>
 
 		<main class="wrapper stack gap-20 lg:gap-48">
@@ -122,6 +130,9 @@ const projects = (await getCollection('work'))
 		object-position: top;
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
+	}
+	.span {
+	color:  var(--accent-regular);
 	}
 
 	@media (min-width: 50em) {

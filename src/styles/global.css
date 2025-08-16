@@ -126,6 +126,7 @@ html,
 body {
 	min-height: 100%;
 	overflow-x: hidden;
+	margin-top: 60px;
 }
 
 body {
@@ -184,9 +185,7 @@ h5 {
 }
 
 /* Utilities */
-.span {
-	color: #7611a6;;
-}
+
 
 .sr-only {
 	position: absolute;

@@ -7,8 +7,6 @@ import ThemeToggle from './ThemeToggle.astro';
 const textLinks: { label: string; href: string }[] = [
 	{ label: 'Inicio', href: '/' },
 	{ label: 'Proyectos', href: '/work/' },
-	{ label: 'Servicios', href: '/servicios/' },
-  	{ label: 'Blog', href: '/blog/' },
 	{ label: 'Sobre mi', href: '/about/' },
 ];
 
@@ -31,8 +29,8 @@ const isCurrentPage = (href: string) => {
 
 <nav>
 	<div class="menu-header">
-		<a href="/" class="site-title">
-			<Icon icon="circuito" color="var(--accent-regular)" size="1.6em" gradient />
+		<a href="/" class="site-title link"><img src="/circuito.png" alt="">
+			<!-- <Icon icon="circuito" color="var(--accent-regular)" size="1.6em" gradient /> -->
 			<!-- <link rel="icon" type="image/png" href="/circuito.png"> -->
 			YasminTorres.dev
 		</a>
@@ -142,8 +140,13 @@ const isCurrentPage = (href: string) => {
 
 <style>
 	nav {
-		z-index: 9999;
-		position: relative;
+		position: fixed; /* Fija la barra en pantalla */
+  		top: 0; /* La pega arriba */
+		left: 0;
+  		width: 100%; /* Que ocupe todo el ancho */
+  		z-index: 1000;
+		/* z-index: 9999;
+		position: relative; */
 		font-family: var(--font-brand);
 		font-weight: 500;
 		margin-bottom: 3.5rem;
@@ -204,6 +207,7 @@ const isCurrentPage = (href: string) => {
 	}
 
 	.nav-items {
+		position: absolute;
 		margin: 0;
 		display: flex;
 		flex-direction: column;
