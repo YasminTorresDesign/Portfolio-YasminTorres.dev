@@ -10,6 +10,7 @@ import Icon from '../components/Icon.astro';
 import Pill from '../components/Pill.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
 import Skills from '../components/Skills.astro';
+import Experience from '../components/Experience.astro';
 // Layout import — provides basic page elements: <head>, <nav>, <footer> etc.
 import BaseLayout from '../layouts/BaseLayout.astro';
 
@@ -44,18 +45,26 @@ const projects = (await getCollection('work'))
 					src="/assets/inicio.jpg"
 				/>
 			</header>
+
+			<!-- <Skills /> -->
 			<section>
 				<header class="section-header stack gap-2 lg:gap-4">
 				<h3>Servicios </h3>
-					<p>Soluciones Personalizadas y Escalables<br>
-					 diseñadas para crecer contigo y tus ideas
+					<p>Soluciones Personalizadas y Escalables diseñadas para crecer contigo y tus ideas
 					</p>
 				</header>
 				<Skills />
 			</section>
 			
+			<!-- <Experience /> -->
+			<section>
+				<Experience /> 
+			</section>
 
-			<!-- <Skills /> -->
+			
+			
+
+
 		</div>
 
 		<main class="wrapper stack gap-20 lg:gap-48">
@@ -135,6 +144,7 @@ const projects = (await getCollection('work'))
 	color:  var(--accent-regular);
 	}
 
+	
 	@media (min-width: 50em) {
 		.hero {
 			display: grid;

@@ -1,0 +1,200 @@
+---
+import Icon from './Icon.astro';
+---
+
+<section class="experience">
+  <h2 class="experience-title">
+    <span class="icon"><img src="/briefcase-violet.png" width=45" alt=""></span> 
+     <!-- <Icon icon="briefcase" color="var(--accent-regular)" size="12.5rem" gradient /> -->
+    Experiencia laboral
+  </h2>
+
+  <div class="timeline">
+    <!-- Item 1 -->
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <h3 class="role">Diseñadora  & Desarrolladora</h3>
+        <p class="company">Freelance</p>
+        <p class="date">Actualmente…</p>
+        <p class="description">
+         Me dedico a crear soluciones a la medida que integran Diseño, Desarrollo y Experiencias interactivas. Mi enfoque está en fusionar creatividad, tecnología y propósito, entregando sistemas que no solo funcionan bien, sino que también generan experiencias únicas y adaptadas a las necesidades reales de cada usuario.
+        </p>
+        <a href="#" class="more">Saber más &gt;</a>
+      </div>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="timeline-item right">
+      <div class="timeline-content">
+        <h3 class="role">Documentación de Codigo</h3>
+        <p class="company">Sennova</p>
+        <p class="date">Abril 2025</p>
+        <p class="description">
+          Desarrollo y documentación de la plataforma web SERVISER. Redacción de documentación técnica (manuales, guías de instalación, diagramas de arquitectura, tutoriales). Documentación de código para facilitar la mantenibilidad, escalabilidad y comprensión del software.
+        </p>
+        <a href="https://starlight-serviser-doc.vercel.app/" class="more">Saber más &gt;</a>
+      </div>
+    </div>
+
+    <!-- Item 3 -->
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <h3 class="role">Diseñadora de Mobiliario</h3>
+        <p class="company">Muebles Ramirez</p>
+        <p class="date">2018</p>
+        <p class="description">
+          Diseñar los productos requeridos según las especificaciones técnicas, realizar el prototipo del producto diseñado mediante herramientas CAD y definir las características físicas y pautas de producción.
+        </p>
+        
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<style>
+.experience {
+  background: var(--gray-999_40);
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.experience-title {
+  font-size: var(--text-4xl);
+  font-weight: bold;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+/* ---------- TIMELINE ---------- */
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 3px;
+  background: #ddd;
+  transform: translateX(-50%);
+}
+
+/* Items */
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 1.5rem;
+}
+
+.timeline-item.left {
+  left: 0;
+  text-align: right;
+}
+
+.timeline-item.right {
+  left: 50%;
+}
+
+.timeline-content {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.timeline-item.left .timeline-content::after,
+.timeline-item.right .timeline-content::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  width: 14px;
+  height: 14px;
+  background:var(--accent-regular);;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.timeline-item.left .timeline-content::after {
+  right: -37px;
+}
+
+.timeline-item.right .timeline-content::after {
+  left: -37px;
+}
+
+/* ---------- TEXTOS ---------- */
+.role {
+  font-weight: bold;
+  color: var(--accent-regular);
+  font-size: var(--text-lg);
+}
+
+.company {
+  font-weight: 600;
+  color: #333;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.8rem;
+}
+
+.description {
+  color: var(--gray-400);
+  line-height: 1.5;
+}
+
+.more {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  color: var(--accent-regular);
+  text-decoration: none;
+}
+
+.more:hover,
+.more:focus {
+  text-decoration: underline;
+  color: var(--accent-light);
+}
+
+/* ---------- RESPONSIVO ---------- */
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 20px; /* mover línea a la izquierda */
+  }
+
+  .timeline-item {
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .timeline-item.left,
+  .timeline-item.right {
+    left: 0;
+    text-align: left;
+  }
+
+  .timeline-item.left .timeline-content::after,
+  .timeline-item.right .timeline-content::after {
+    left: -30px;
+    right: auto;
+  }
+}
+
+</style>

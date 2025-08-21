@@ -37,6 +37,8 @@ export const iconPaths = {
 	'tiktok-logo': `<path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M168 106a96 96 0 0 0 56 18V84a56 56 0 0 1-56-56h-40v128a28 28 0 1 1-40-25V89a68 68 0 1 0 80 67Z"/>`,
 	'mail': `<rect width="192" height="160" x="32" y="48" rx="8" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" /> <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M32 80l96 64 96-64" />`,
 	'circuito': `<rect width="256" height="256" fill="none"/> <circle cx="168" cy="104" r="16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/> <circle cx="88" cy="168" r="16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/> <polyline points="152 216 152 160 88 96 88 40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/> <line x1="88" y1="152" x2="88" y2="96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/> <rect x="40" y="40" width="176" height="176" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/> <polyline points="136 40 136 72 156.69 92.69" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>`,
-	'check': `width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M20.285 6.709l-11.285 11.291-5.285-5.291 1.414-1.414 3.871 3.877 9.871-9.877z"/>`,
+	'briefcase':`  width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect> <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"></path>
+  <path d="M2 13h20"></path>`
+
 
 };
