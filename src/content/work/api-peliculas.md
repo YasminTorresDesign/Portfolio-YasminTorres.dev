@@ -1,7 +1,7 @@
 ---
-title: Serviser.doc
-publishDate: 2025-04-02 00:00:00
-img: /assets/sennova-2.png
+title: Web Peliculas
+publishDate: 2024-03-12 00:00:00
+img: /assets/api-peliculas.png
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
