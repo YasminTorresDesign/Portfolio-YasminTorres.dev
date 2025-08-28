@@ -9,6 +9,7 @@ import Hero from '../components/Hero.astro';
 import Icon from '../components/Icon.astro';
 import Pill from '../components/Pill.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
+import Profiles from '../components/Profiles.astro';
 import Skills from '../components/Skills.astro';
 import Experience from '../components/Experience.astro';
 // Layout import — provides basic page elements: <head>, <nav>, <footer> etc.
@@ -67,9 +68,10 @@ const projects = (await getCollection('work'))
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Ultimos Proyectos</h3>
-					<p>Take a look below at some of my featured work for clients from the past few years.</p>
+					<p>Estos son algunos de los proyectos en los que he trabajado, donde diseño y tecnología se encuentran para crear experiencias únicas.</p>
 				</header>
 
+				
 				<div class="gallery">
 					<Grid variant="offset">
 						{
@@ -92,22 +94,17 @@ const projects = (await getCollection('work'))
 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
+					<h3>Habilidades</h3>
 					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
+						He construido un perfil híbrido que combina Diseño, Desarrollo Backend e Integración de Tecnologías Emergentes
 					</p>
 				</header>
+				
+				
 
 				<div class="gallery">
 					<Grid variant="small">
-						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
-								<li class="mention-card">
-									<p>{brand}</p>
-								</li>
-							))
-						}
+						<Profiles></Profiles>
 					</Grid>
 				</div>
 			</section>
