@@ -1,0 +1,88 @@
+---
+import Icon from './Icon.astro';
+---
+<section>
+    
+    <section class="box skills">
+
+        <div class="stack gap-2 lg:gap-4">
+            <Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
+            <h3>Pagina con Formulario Inteligente</h3>
+            <p>Ideal para personas o marcas que quieren lanzar una idea rápida con un formulario que capta leads o pedidos personalizados.<br><br>
+                <img src="/preview.svg" alt="">Formulario dinámico y adaptativo<br>
+                <img src="/preview.svg" alt=""> Diseño 100% personalizado<br>
+                <img src="/preview.svg" alt=""> Integración con WhatsApp, correo o CRM<br>
+                <img src="/preview.svg" alt=""> Autogestionable (Escala a App)</p>
+        </div>
+        <div class="stack gap-2 lg:gap-4">
+            <Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
+            <h3>Configurador Producto Personalizado </h3>
+            <p>Aplicación Web Interactiva diseñada para ofrecer experiencias únicas y personalizadas al usuario.<br><br>
+                <img src="/preview.svg" alt=""> Configurador de productos<br>
+                <img src="/preview.svg" alt=""> Panel básico de administración<br>
+                <img src="/preview.svg" alt=""> Conectividad con bases de datos<br>
+                <img src="/preview.svg" alt=""> UI adaptable a marca
+            </p>
+        </div>
+        <div class="stack gap-2 lg:gap-4">
+            <Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
+            <h3>Prototipos de Producto con Visualización </h3>
+            <p>Solución avanzada con experiencia inmersiva del servicio o producto  personalizado antes de adquirirlo.<br><br>
+                <img src="/preview.svg" alt=""> Vista previa 3D del producto o espacio<br>
+                <img src="/preview.svg" alt=""> Panel administrador completo<br>
+                <img src="/preview.svg" alt=""> Arquitectura escalable<br>
+                <img src="/preview.svg" alt=""> Backend robusto 
+                </p>
+        </div>
+    </section>
+</section>
+
+    <style>
+        .box {
+            border: 1px solid var(--gray-800);
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            background-color: var(--gray-999_40);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .skills {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+        }
+
+        .skills h2 {
+            font-size: var(--text-lg);
+        }
+
+        .skills p {
+            color: var(--gray-400);
+        }
+        .title {
+            font-size: var(--text-4xl);
+            font-weight: bold;
+            margin-bottom: 3rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            justify-content: center;
+        }    
+
+        @media (min-width: 50em) {
+            .box {
+                border-radius: 1.5rem;
+                padding: 2.5rem;
+            }
+
+            .skills {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 5rem;
+            }
+
+            .skills h2 {
+                font-size: var(--text-2xl);
+            }
+        }
+    </style>

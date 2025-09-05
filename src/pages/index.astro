@@ -14,6 +14,7 @@ import Skills from '../components/Skills.astro';
 import Experience from '../components/Experience.astro';
 // Layout import — provides basic page elements: <head>, <nav>, <footer> etc.
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Services from '../components/Services.astro';
 
 // Content Fetching: List four most recent work projects
 const projects = (await getCollection('work'))
@@ -30,7 +31,7 @@ const projects = (await getCollection('work'))
 			<header class="hero">
 				<Hero
 					title="Hola, soy Yasmín"
-					tagline="Diseñadora Producto | Desarrolladora Backend, residente en Colombia. Me especializo en crear sistemas inteligentes y personalizados que conectan diseño, software e IA. Ayudo a emprendedores, negocios locales y creadores a construir soluciones tecnológicas funcionales, intuitivas y escalables."
+					tagline="Diseñadora de Productos Industriales | Desarrolladora de Software, residente en Colombia. Me especializo en crear sistemas personalizados inteligentes  que conectan diseño, software e IA. Ayudo a emprendedores, negocios locales y creadores a construir soluciones tecnológicas funcionales, intuitivas y escalables."
 					align="start">
 					<div class="roles">
 						<Pill><Icon icon="pencil-line" size="1.33em" /> Diseñadora</Pill>
@@ -48,14 +49,18 @@ const projects = (await getCollection('work'))
 			</header>
 
 			<!-- <Skills /> -->
-			<section>
+			 <Skills />
+
+			
+			<!-- <Servicios /> -->
+			<!-- <section>
 				<header class="section-header stack gap-2 lg:gap-4">
 				<h3>Servicios </h3>
 					<p>Soluciones Personalizadas y Escalables diseñadas para crecer contigo y tus ideas
 					</p>
 				</header>
-				<Skills />
-			</section>
+				 <Services />
+			</section> -->
 			
 			<!-- <Experience /> -->
 			<section>
@@ -92,7 +97,7 @@ const projects = (await getCollection('work'))
 				</div>
 			</section>
 
-			<section class="section with-background bg-variant">
+			<!-- <section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Habilidades</h3>
 					<p>
@@ -107,7 +112,7 @@ const projects = (await getCollection('work'))
 						<Profiles></Profiles>
 					</Grid>
 				</div>
-			</section>
+			</section> -->
 		</main>
 
 		<ContactCTA />

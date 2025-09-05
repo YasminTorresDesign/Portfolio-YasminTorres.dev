@@ -1,5 +1,5 @@
 ---
-title: Web Landing
+title: Landing Pages
 publishDate: 2023-12-02 00:00:00
 img: /assets/landing.png
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
