@@ -4,32 +4,41 @@ publishDate: 2025-04-02 00:00:00
 img: /assets/sennova-2.png
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Generación de la documentación técnica y de usuario para el proyecto SERVISENA
+
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - Astro
+  - Cursor AI
+  - Github
+
 ---
 
-## Level-two heading
+## Acerca de este proyecto
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.---
+> La documentación técnica desempeña un papel fundamental al proporcionar una guía detallada sobre la arquitectura, funcionamiento interno y procesos de una aplicación.
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+Sitio web de documentación técnica y de uso para el Sistema Servisena y Serviser, que permita futuras ampliaciones y una referencia tanto para usuarios finales como desarrolladores.
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+---
 
-### Level-three heading
+### Objetivo del Sitio
+ El objetivo es proporcionar información clara y estructurada sobre el sistema y su funcionamiento, de forma tal que facilite la comprensión tanto para desarrolladores como para usuarios finales. Para brindar una mayor cobertura al público objetivo, se propone que el despliegue de la información se realice sobre una plataforma web a la que puedan tener acceso en cualquier momento.
+### Estructura de documentación.
+Se parte de que la arquitectura de la información que es la que define cómo se va a organizar y categorizar el contenido del sitio. En este caso, como se va a trabajar con la herramienta **ASTRO** y por tratarse de un sitio donde únicamente se desplegará la documentación del proyecto, se considera una estructura básica tipo árbol como se muestra a continuación:
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+![Arquitectura Astro](/assets/arq-astro.jpg)
 
-### Level-three heading
+### Desafíos
+El principal desafío fue la aplicación de nuevas tecnologías y herramientas como **ASTRO** y **CURSOR AI** . También lo fue el trabajo en equipo de manera remota.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+### Aprendizajes
+Este proyecto reforzó la importancia de la arquitectura modular y  el control de cambios del proyecto por medio de la herramienta **GITHUB**. Además el despliegue de sitios web en la plataforma **VERCEL**
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+---
 
-#### Level-four heading
+#### Aqui estamos
 
-- We noted this
-- And also this other point
+- <a href="https://starlight-serviser-doc.vercel.app/">Visita proyecto 🌐 </a>
+- <a href="https://github.com/YasminTorresDesign/starlight-serviser-doc">Ver codigo 💻 </a>
+
+---
