@@ -2,14 +2,16 @@
 title: Serviser.doc
 publishDate: 2025-04-02 00:00:00
 img: /assets/sennova-2.png
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img_alt: Proyecto de servitizacion Sennova
 description: |
-  Generación de la documentación técnica y de usuario para el proyecto SERVISENA
+  Generación de la documentación  para el proyecto de servitización SERVISENA, incluye manual técnico, implementación y de usuario.
 
 tags:
   - Astro
+  - Vercel
   - Cursor AI
   - Github
+  - Markdown
 
 ---
 
@@ -17,7 +19,7 @@ tags:
 
 > La documentación técnica desempeña un papel fundamental al proporcionar una guía detallada sobre la arquitectura, funcionamiento interno y procesos de una aplicación.
 
-Sitio web de documentación técnica y de uso para el Sistema Servisena y Serviser, que permita futuras ampliaciones y una referencia tanto para usuarios finales como desarrolladores.
+Sitio web de documentación técnica y de uso para el Sistema Servisena y Serviser, que permite futuras ampliaciones y una referencia tanto para usuarios finales como desarrolladores.
 
 ---
 
