@@ -1,35 +1,64 @@
 ---
-title: Web Peliculas
-publishDate: 2024-03-12 00:00:00
-img: /assets/api-peliculas.png
-img_alt: Iridescent ripples of a bright blue and pink liquid
+title: App Peliculas
+publishDate: 2025-09-10 00:00:00
+img: /assets/principal.png
+img_alt: tarjetas con imagenes y nombres de peliculas
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  App Web que muestra las películas populares y permite al usuario buscar títulos específicos con informacion detallada.
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - HTML
+  - CSS
+  - JavaScript
+  - API
+---
+## Acerca de este proyecto
+
+> Aplicación web con interfaz moderna estilo Netflix con modales para ver detalles de cada de pelicula.
+
+Aplicación web desarrollada en **HTML, CSS y JavaScript** que se conecta con la API de [The Movie Database (TMDb)](https://www.themoviedb.org/) para mostrar las películas populares y permitir al usuario buscar títulos específicos.  
+
 ---
 
-## Level-two heading
+### Características
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.---
+#### Pantalla Principal
+![Peliculas Populares](/assets/populares.png)
+- 🎥 **Películas populares** cargadas automáticamente desde la API.
+- 🔍 **Buscador interactivo** que permite buscar por título (funciona con botón o tecla Enter).
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+---
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+#### Modal de Pelicula
+![Modal de Pelicula](/assets/modal.png)
+- 📑 **Modal con información detallada** de la película seleccionada:
+  - Póster
+  - Título
+  - Descripción
+  - Fecha de lanzamiento
+  - Calificación
+  - Tráiler (si está disponible)
 
-### Level-three heading
+---
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+#### Modal sin Resultado
+![Modal de Pelicula](/assets/sin-resultado.png)
+- 🚫 **Manejo de errores**: si no se encuentra una película, se muestra un modal especial con animación de vibración.
+- 🎨 **Diseño responsivo** con tarjetas animadas estilo Netflix.
 
-### Level-three heading
+---
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+### Desafíos
+El principal desafío en el desarrollo del sitio web fue pasar a codigo las ideas y los diseños que tenia, ir del boceto a un sitio que funciona y  permite interactuar.
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+### Aprendizajes
+Este proyecto me permitio  conectar una API con Javascript usando Async, Await y Fetch. El desarrollo de un sitio web sencillo y funcional  con solo **HTML, CSS y JavaScript** sin utilizar frameworks.
 
-#### Level-four heading
+---
 
-- We noted this
-- And also this other point
+#### Aqui estamos
+
+- <a href="https://yasmintorresdesign.github.io/api-JavaScript-peliculas/
+">Visita proyecto 🌐 </a>
+- <a href="https://github.com/YasminTorresDesign/api-JavaScript-peliculas">Ver codigo 💻 </a>
+
+--- 

@@ -123,7 +123,7 @@ Este proyecto reforzó los conocimientos aprendidos en un proyecto funcional y d
 #### Aqui estamos
 
 - <a href=" https://yasmintorresdesign.my.canva.site/manual-usuario-web-store">Manual de Usuario 🌐 </a>
-- <a href=" https://www.youtube.com/watch?v=wand9VRd6y0">Video Tutorial 🌐 </a>
+- <a href=" https://www.youtube.com/watch?v=wand9VRd6y0">Video Tutorial 👩‍💻 </a>
 - <a href="https://github.com/YasminTorresDesign/web-store">Ver codigo 💻 </a>
 
 ---
