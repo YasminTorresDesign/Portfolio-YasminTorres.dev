@@ -9,7 +9,6 @@ tags:
   - SpringBoot
   - Java
   - MySql
-  - Thymeleaf
   - Figma
 ---
 
@@ -30,13 +29,15 @@ Se ha utilizado la herramienta **Figma** que permite realizar los wireframes, mo
 #### Prototipo movil
 ![Arquitectura Astro](/assets/prot-movil.png)
 
-https://www.figma.com/proto/iULylnS9KOiFAY6iwt8wNh/appTuMueble?type=design&node-id=213-3505&t=AORy3WhWfyeOWrjJ-0&scaling=scale-down&page-id=213%3A2251&starting-point-node-id=213%3A3505
+- <a href=" https://www.figma.com/proto/iULylnS9KOiFAY6iwt8wNh/appTuMueble?type=design&node-id=213-3505&t=AORy3WhWfyeOWrjJ-0&scaling=scale-down&page-id=213%3A2251&starting-point-node-id=213%3A3505">Ver Prototipo Movil en Figma 🌐 </a>
+
 
 
 #### Prototipo desktop
 ![Arquitectura Astro](/assets/prot-desktop.png)
 
-https://www.figma.com/proto/iULylnS9KOiFAY6iwt8wNh/appTuMueble?type=design&node-id=221-3839&t=AORy3WhWfyeOWrjJ-0&scaling=scale-down&page-id=221%3A3830&starting-point-node-id=221%3A3839
+- <a href=" https://www.figma.com/proto/iULylnS9KOiFAY6iwt8wNh/appTuMueble?type=design&node-id=221-3839&t=AORy3WhWfyeOWrjJ-0&scaling=scale-down&page-id=221%3A3830&starting-point-node-id=221%3A3839">Ver Prototipo Desktop en Figma 🌐 </a>
+
 
 ---
 

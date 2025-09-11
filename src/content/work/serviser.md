@@ -11,7 +11,7 @@ tags:
   - Vercel
   - Cursor AI
   - Github
-  - Markdown
+ 
 
 ---
 
