@@ -130,7 +130,7 @@ Página web informativa sobre servicios de diseño de mobiliario. Está enfocada
 - Iconos con **Google Fonts (Open Sans)** y **Boxicons**
 
 ---
-
+<!-- 
 ### Burger House - Página Web de Hamburguesas
 
 Página web diseñada para una hamburguesería moderna, donde se destacan sus productos, promociones y presencia en distintas ciudades. 
@@ -152,7 +152,7 @@ La página principal incluye:
 - Espacios pensados para destacar productos como “La Mejor Burger” y “Burger Gigante”.
 - Además secciones como estadísticas, suscripción y paquetes promocionales.
 
----
+--- -->
 
 
 
