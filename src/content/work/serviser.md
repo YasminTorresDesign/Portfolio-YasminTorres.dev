@@ -40,7 +40,7 @@ Este proyecto reforzó la importancia de la arquitectura modular y  el control d
 
 #### Aqui estamos
 
-- <a href="https://starlight-serviser-doc.vercel.app/">Visita proyecto 🌐 </a>
-- <a href="https://github.com/YasminTorresDesign/starlight-serviser-doc">Ver codigo 💻 </a>
+- [Visita proyecto 🌐](https://starlight-serviser-doc.vercel.app/) 
+- [Ver codigo 💻](https://github.com/YasminTorresDesign/starlight-serviser-doc)
 
 ---

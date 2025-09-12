@@ -1,23 +1,158 @@
 ---
 title: Landing Pages
-publishDate: 2023-12-02 00:00:00
+publishDate: 2024-12-02 00:00:00
 img: /assets/landing.png
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
 description: |
-  We paired with a cutting-edge music API and a team of horticulturalists
-  to build AI-generated playlists that maximize houseplant health.
+  Una colección de proyectos básicos con HTML, CSS y JavaScript, donde transformé tutoriales en aprendizajes reales que sentaron las bases de mi camino como desarrolladora.
 tags:
-  - Dev
-  - Branding
-  - Backend
+  - HTML
+  - CSS
+  - JavaScript
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+## Primeros Pasos en Desarrollo Web
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+> Ejercicios de desarrollo web que pasaron de simples tutoriales a retos personales, marcando mis primeros pasos en la programación y el diseño de interfaces.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+Estos proyectos son parte de mi etapa de aprendizaje práctico, donde exploré las bases del desarrollo web utilizando **HTML**, **CSS** puro y un poco de **JavaScript**. Cada uno representa un pequeño desafío que me permitió afianzar conceptos, ganar confianza en la maquetación y comenzar a experimentar con la interactividad. Aunque son proyectos sencillos, los valoro porque fueron la base para desarrollar una lógica más sólida y un estilo propio.
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+---
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+### Desafíos y Aprendizajes
+
+- **Adaptar el diseño a código real:** traducir interfaces de referencia a estructuras HTML limpias y ordenadas.
+
+- **Dominar la maquetación con CSS:** entender cómo funcionan el box model, la posición de elementos y las unidades de medida.
+
+- **Buenas prácticas desde el inicio:** organizar carpetas, archivos y clases para que el código sea más legible.
+
+- **Primeros pasos con JavaScript:** añadir interactividad básica y comprender cómo manipular el DOM.
+
+- **Atención al detalle:** trabajar en animaciones, transiciones y pequeños efectos que mejoran la experiencia de usuario.
+
+- **Paciencia y constancia:** entender que la práctica repetida es clave para ganar fluidez y seguridad en el desarrollo.
+
+---
+
+### Brand_X - Página Web de Muebles
+Tienda online de muebles diseñada para ofrecer comodidad, estilo y funcionalidad a cualquier espacio. Este proyecto tiene como objetivo crear una experiencia web moderna, responsiva y atractiva donde los usuarios puedan conocer los productos y valores como marca.
+
+![Brand_X-Página Web de Muebless](/assets/brand-x.png)
+
+- [Visita proyecto 🌐](https://yasmintorresdesign.github.io/Furniture-Website/) 
+- [Ver codigo 💻](https://github.com/YasminTorresDesign/Furniture-Website)
+
+#### Características
+
+- Página de inicio con mensaje de bienvenida y llamada a la acción.
+- Sección "About Us" que comunica la filosofía de la marca.
+- Catálogo de productos (muebles) con imágenes y descripciones.
+- Carrito funcional para agregar y quitar productos, vaciar carrito.
+- Diseño adaptable a dispositivos móviles (responsive design).
+- Estilo visual limpio, moderno y enfocado en la experiencia del usuario.
+
+---
+
+### Furniture Store - Tienda de Muebles
+Página web responsive diseñada para mostrar una tienda de muebles elegante, moderna y funcional. Cuenta con navegación clara, diseño atractivo y enfoque en la experiencia del cliente desde el primer vistazo.
+
+![Furniture Store-Tienda de Muebles](/assets/furni-store.png)
+
+- [Visita proyecto 🌐](https://yasmintorresdesign.github.io/Furniture-Store/) 
+- [Ver codigo 💻](https://github.com/YasminTorresDesign/Furniture-Store)
+
+#### Características
+
+- Página principal con mensaje de bienvenida e imagen destacada.
+- Menú de navegación con secciones: Home, Shop, Features, New Arrival, Team y Contact.
+- Diseño limpio y profesional, compatible con dispositivos móviles.
+- Icono personalizado en la pestaña del navegador.
+- Efectos visuales suaves y carrusel con **Swiper.js**.
+
+---
+
+### Fast-Food - Página Web de Comida Rápida
+
+Página web diseñada para mostrar el menú, las promociones y la información de contacto de un restaurante de comida rápida. 
+Este proyecto busca ofrecer una experiencia visual atractiva y moderna, destacando productos como hamburguesas, tacos, papas fritas y combos familiares.
+
+![Fast-Food-Página Web de Comida Rápida](/assets/Fast-Food.png)
+
+- [Visita proyecto 🌐](https://yasmintorresdesign.github.io/Fast-Food/) 
+- [Ver codigo 💻](https://github.com/YasminTorresDesign/Fast-Food)
+
+#### Características
+
+- Diseño responsivo (ajustable a diferentes dispositivos).
+- Menú interactivo por categorías.
+- Sección de promociones destacadas.
+- Footer con enlaces rápidos y redes sociales.
+
+---
+
+### Clothing Store - Tienda de Ropa Online
+
+Página web moderna y responsive diseñada para una tienda de ropa online. La web ofrece una experiencia de usuario sencilla, clara y atractiva para promocionar ofertas especiales y diferentes categorías de productos.
+
+![Clothing Store-Tienda de Ropa Online](/assets/Clothing-Store.png)
+
+- [Visita proyecto 🌐](https://yasmintorresdesign.github.io/Clothing-Store/) 
+- [Ver codigo 💻](https://github.com/YasminTorresDesign/Clothing-Store)
+
+#### Características
+
+- Sección de **Inicio** con banner de ofertas especiales.
+- Navegación por secciones: Inicio, Ofertas, Productos, Blog y Contacto.
+- Carrito funcional para agregar y quitar productos, vaciar carrito.
+- Diseño limpio, minimalista y enfocado en la conversión.
+- Incluye imágenes y estilos personalizados.
+- Iconos relacionados con moda y compras.
+
+---
+
+### Modular Furniture Design - Mobiliario Modular
+
+Página web informativa sobre servicios de diseño de mobiliario. Está enfocada en mostrar, de manera visual y clara, las soluciones que ofrecemos en diseño, modelado 3D y renderizado de muebles modulares personalizados.
+
+![Clothing Store-Tienda de Ropa Online](/assets/Modular-Furniture-Design.png)
+
+- [Visita proyecto 🌐](https://yasmintorresdesign.github.io/pagina-web-mobiliario/) 
+- [Ver codigo 💻](https://github.com/YasminTorresDesign/pagina-web-mobiliario)
+
+#### Características
+
+- Sección de Inicio con banner.
+- Menu colapsable lateral
+- Seccion de servicios con: Diseño, Modelado 3D y Renderizado
+- Diseño limpio, minimalista y enfocado en la conversión.
+- para galería o visualización de imágenes con **Lightbox.js** 
+- Iconos con **Google Fonts (Open Sans)** y **Boxicons**
+
+---
+
+### Burger House - Página Web de Hamburguesas
+
+Página web diseñada para una hamburguesería moderna, donde se destacan sus productos, promociones y presencia en distintas ciudades. 
+Su diseño atractivo y funcional ofrece una experiencia visual deliciosa al usuario.
+
+![Clothing Store-Tienda de Ropa Online](/assets/Burger-Web.png)
+
+- [Visita proyecto 🌐](https://yasmintorresdesign.github.io/Burger-Web/) 
+- [Ver codigo 💻](https://github.com/YasminTorresDesign/Burger-Web)
+
+#### Características
+
+La página principal incluye:
+- Menú de navegación (Inicio, Nosotros, Productos, Promociones, Contacto).
+- Imagen destacada de hamburguesa con papas.
+- Mensaje promocional con descuentos de hasta el 50%.
+- Botón de llamada a la acción: “ORDENA YA”.
+- Sección de inicio llamativa con promociones.
+- Espacios pensados para destacar productos como “La Mejor Burger” y “Burger Gigante”.
+- Además secciones como estadísticas, suscripción y paquetes promocionales.
+
+---
+
+
+

@@ -29,14 +29,13 @@ Se ha utilizado la herramienta **Figma** que permite realizar los wireframes, mo
 #### Prototipo movil
 ![Arquitectura Astro](/assets/prot-movil.png)
 
-- <a href=" https://www.figma.com/proto/iULylnS9KOiFAY6iwt8wNh/appTuMueble?type=design&node-id=213-3505&t=AORy3WhWfyeOWrjJ-0&scaling=scale-down&page-id=213%3A2251&starting-point-node-id=213%3A3505">Ver Prototipo Movil en Figma 🌐 </a>
-
+- [Ver Prototipo Movil en Figma 📲](https://www.figma.com/proto/iULylnS9KOiFAY6iwt8wNh/appTuMueble?type=design&node-id=213-3505&t=AORy3WhWfyeOWrjJ-0&scaling=scale-down&page-id=213%3A2251&starting-point-node-id=213%3A3505)
 
 
 #### Prototipo desktop
 ![Arquitectura Astro](/assets/prot-desktop.png)
 
-- <a href=" https://www.figma.com/proto/iULylnS9KOiFAY6iwt8wNh/appTuMueble?type=design&node-id=221-3839&t=AORy3WhWfyeOWrjJ-0&scaling=scale-down&page-id=221%3A3830&starting-point-node-id=221%3A3839">Ver Prototipo Desktop en Figma 🌐 </a>
+- [Ver Prototipo Desktop en Figma 💻](https://www.figma.com/proto/iULylnS9KOiFAY6iwt8wNh/appTuMueble?type=design&node-id=221-3839&t=AORy3WhWfyeOWrjJ-0&scaling=scale-down&page-id=221%3A3830&starting-point-node-id=221%3A3839)
 
 
 ---
@@ -123,9 +122,9 @@ Este proyecto reforzó los conocimientos aprendidos en un proyecto funcional y d
 
 #### Aqui estamos
 
-- <a href=" https://yasmintorresdesign.my.canva.site/manual-usuario-web-store">Manual de Usuario 🌐 </a>
-- <a href=" https://www.youtube.com/watch?v=wand9VRd6y0">Video Tutorial 👩‍💻 </a>
-- <a href="https://github.com/YasminTorresDesign/web-store">Ver codigo 💻 </a>
+- [Manual de Usuario 🌐](https://yasmintorresdesign.my.canva.site/manual-usuario-web-store) 
+- [Video Tutorial 👩‍💻](https://www.youtube.com/watch?v=wand9VRd6y0) 
+- [Ver codigo 💻](https://github.com/YasminTorresDesign/web-store)
 
 ---
  

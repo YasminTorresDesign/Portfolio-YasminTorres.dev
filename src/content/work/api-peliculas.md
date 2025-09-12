@@ -57,8 +57,7 @@ Este proyecto me permitio  conectar una API con Javascript usando Async, Await y
 
 #### Aqui estamos
 
-- <a href="https://yasmintorresdesign.github.io/api-JavaScript-peliculas/
-">Visita proyecto 🌐 </a>
-- <a href="https://github.com/YasminTorresDesign/api-JavaScript-peliculas">Ver codigo 💻 </a>
+- [Visita proyecto 🌐](https://yasmintorresdesign.github.io/api-JavaScript-peliculas/) 
+- [Ver codigo 💻](https://github.com/YasminTorresDesign/api-JavaScript-peliculas)
 
 --- 
